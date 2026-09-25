@@ -59,3 +59,7 @@ Build sigue en rojo tras 3 intentos.
 ## evaluator
 
 Fallo del LLM; sin cambios. El proveedor opencode respondió 402.
+
+## git
+
+Push realizado. Pull request: https://github.com/Coolpix/test-langgraph/pull/8
