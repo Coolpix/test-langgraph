@@ -1,4 +1,3 @@
-import { randomUUID } from "node:crypto";
 import {
   BusinessError,
   type CreateProductInput,
@@ -23,7 +22,7 @@ export class ProductService {
 
     const now = new Date().toISOString();
     return this.repository.create({
-      id: randomUUID(), sku, name, price: input.price, stock: input.stock ?? 0,
+      id: crypto.randomUUID(), sku, name, price: input.price, stock: input.stock ?? 0,
       active: true, createdAt: now, updatedAt: now,
     });
   }
