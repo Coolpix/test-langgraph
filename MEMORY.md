@@ -59,3 +59,7 @@ Build sigue en rojo tras 3 intentos.
 ## evaluator
 
 El build sigue fallando por el error TS2591 (faltan las definiciones de tipos de Node.js para 'node:crypto'). Aunque el agente de build identificó correctamente la causa, no aplicó la corrección porque no inspeccionó package.json ni tsconfig.json, y además dejó un archivo HOLA.md innecesario. El fallo de build es bloqueante, por lo que se requiere rehacer esa parte. La documentación tampoco entregó un JSON válido, pero la prioridad es resolver el build.
+
+## git
+
+Push realizado. Pull request: https://github.com/Coolpix/test-langgraph/pull/11
