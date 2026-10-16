@@ -5,13 +5,13 @@ Aplicacion de prueba con un CRUD en memoria para productos. Incluye una capa de 
 ## Requisitos
 
 - Node.js 20 o superior
-- npm
+- pnpm (el proyecto declara `pnpm@11.21.0` en `packageManager`)
 
 ## Ejecutar
 
 ```bash
-npm install
-npm run dev
+pnpm install
+pnpm dev
 ```
 
 La ejecucion crea productos, actualiza uno, lista activos/inactivos y muestra el error esperado al intentar eliminar un producto con stock.
@@ -19,9 +19,9 @@ La ejecucion crea productos, actualiza uno, lista activos/inactivos y muestra el
 ## Tests y compilacion
 
 ```bash
-npm test
-npm run build
-npm start
+pnpm test
+pnpm build
+pnpm start
 ```
 
 Reglas incluidas:
